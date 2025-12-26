@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מחליפות לגן - דף הבית</title>
+    <link rel="stylesheet" href="style_homepage.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>GanSitter</h1>
+
+        <div class="menu-links">
+            <a href="#">דף הבית</a>
+            <a href="#">חיפוש משמרות</a>
+            <a href="#">איך זה עובד</a>
+            <a href="#">אזור אישי </a>
+        </div>
+
+        <a href="#" class="btn-primary">פרסם צורך</a>
+    </nav>
+</header>
+
+<main>
+    <div class="home-page">
+        <h1>צריכים ממלאת מקום ליום אחד? מוצאים מהר ובבטחה.</h1>
+        <p>גנים מפרסמים צורך חד־פעמי, בייביסיטריות/גננות מגישות מועמדות, ומקבלים התאמה בזמן.</p>
+
+        <div class="cards-container">
+            <div class="card">
+                <h2>🏫 אני גן ילדים</h2>
+                <p>גנים מפרסמים צורך חד־פעמי ומקבלים התאמה.</p>
+                <a href="#" class="btn-action" style="background-color:blue">פרסום צורך למשמרת</a>
+            </div>
+
+            <div class="card">
+                <h2>👩‍🏫 אני מחפשת עבודה</h2>
+                <p>גננות מגישות מועמדות למשמרות קרובות.</p>
+                <a href="#" class="btn-action" style="background-color:green">חיפוש משמרות קרובות</a>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <h2>איך זה עובד?</h2>
+        <div class="steps-container">
+            <div class="step-box">
+                <h3>1. פרסום/הרשמה</h3>
+                <p>הגן מפרסם צורך, הממלאת נרשמת למערכת.</p>
+            </div>
+            <div class="step-box">
+                <h3>2. התאמה</h3>
+                <p>מגישים מועמדות בקליק ומקבלים אישור.</p>
+            </div>
+            <div class="step-box">
+                <h3>3. משמרת</h3>
+                <p>מגיעים לגן, עובדים ומקבלים תשלום.</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #fff;">
+        <h2>משמרות פתוחות</h2>
+
+        <form class="filter-bar">
+            <label>עיר:</label>
+            <select>
+                <option>תל אביב</option>
+                <option>רמת גן</option>
+                <option>גבעתיים</option>
+            </select>
+
+            <label>תאריך:</label>
+            <input type="date">
+
+            <label>טווח שכר (₪):</label>
+            <input type="range" min="30" max="100">
+
+            <input type="button" value="חפש" class="btn-primary" style="cursor: pointer;">
+        </form>
+
+        <div class="shifts-grid">
+            <div class="shift-card">
+                <span class="badge">דחוף</span>
+                <h3>גן פרטי בת"א</h3>
+                <p>📍 תל אביב (צפון הישן)</p>
+                <p>📅 מחר, 07:30 - 16:00</p>
+                <p>💰 50₪ / שעה</p>
+                <button class="btn-action" style="border:none; cursor:pointer; background-color: green;">לפרטים</button>
+            </div>
+
+            <div class="shift-card">
+                <h3>גן השלום</h3>
+                <p>📍 רמת גן</p>
+                <p>📅 היום, 14:00 - 17:00</p>
+                <p>💰 45₪ / שעה</p>
+                <button class="btn-action" style="border:none; cursor:pointer; background-color: green;">לפרטים</button>
+            </div>
+
+            <div class="shift-card">
+                <h3>משפחתון קטן</h3>
+                <p>📍 גבעתיים</p>
+                <p>📅 26.12, 08:00 - 13:00</p>
+                <p>💰 60₪ / שעה</p>
+                <button class="btn-action" style="border:none; cursor:pointer; background-color: green;">לפרטים</button>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        <a href="#">תנאי שימוש</a> |
+        <a href="#">מדיניות פרטיות</a> |
+        <a href="#">צור קשר</a>
+    </p>
+</footer>
+
+</body>
+</html>
